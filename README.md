@@ -3,25 +3,27 @@ About r-rcpp
 
 Home: http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html, https://github.com/RcppCore/Rcpp
 
-Package license: GPL 2.0
+Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation  about 'Rcpp' is provided by several vignettes included in this package, via the  'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and  Francois (2011, JSS), and the book by Eddelbuettel (2013, Springer); see  'citation("Rcpp")' for details on these last two.
+Summary: The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation about 'Rcpp' is provided by several vignettes included in this package, via the 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013, <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018, <doi:10.1080/00031305.2017.1375990>); see 'citation("Rcpp")' for details.
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-rcpp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-rcpp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-rcpp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-rcpp-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-rcpp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-rcpp-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rcpp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rcpp-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-rcpp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rcpp-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rcpp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rcpp-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rcpp/badges/version.svg)](https://anaconda.org/conda-forge/r-rcpp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rcpp/badges/downloads.svg)](https://anaconda.org/conda-forge/r-rcpp)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--rcpp-green.svg)](https://anaconda.org/conda-forge/r-rcpp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-rcpp.svg)](https://anaconda.org/conda-forge/r-rcpp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-rcpp.svg)](https://anaconda.org/conda-forge/r-rcpp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-rcpp.svg)](https://anaconda.org/conda-forge/r-rcpp) |
 
 Installing r-rcpp
 =================
