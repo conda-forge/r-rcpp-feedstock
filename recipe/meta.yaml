@@ -1,4 +1,4 @@
-{% set version = '0.12.17' %}
+{% set version = '1.0.0' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -7,18 +7,17 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: Rcpp_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/Rcpp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rcpp/Rcpp_{{ version }}.tar.gz
-  sha256: 4227c45c92416b5378ed5761495f9b3932d481bae9a190fb584d17c10744af23
+  sha256: b7378bf0dda17ef72aa3f2a318a9cb5667bef50b601dc1096431e17426e18bc2
   patches:
     - 0001-Add-CXX1XSTD-to-PKG_CPPFLAGS.patch
     - 0002-macOS-When-target-lt-10.9-libstdc-supports-only-some.patch
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -31,8 +30,9 @@ requirements:
     - {{native}}toolchain        # [win]
     - {{posix}}filesystem        # [win]
     - {{posix}}make
-    - {{posix}}sed  # [win]
-    - {{posix}}coreutils  # [win]
+    - {{posix}}sed               # [win]
+    - {{posix}}coreutils         # [win]
+    - {{posix}}zip               # [win]
   host:
     - r-base
   run:
@@ -67,3 +67,4 @@ extra:
     - daler
     - jdblischak
     - cbrueffer
+    - dbast
