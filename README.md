@@ -5,7 +5,7 @@ Home: http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html, https://
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcpp-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcpp-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation about 'Rcpp' is provided by several vignettes included in this package, via the 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013, <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018, <doi:10.1080/00031305.2017.1375990>); see 'citation("Rcpp")' for details.
 
@@ -20,8 +20,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main">
           </a>
         </summary>
         <table>
@@ -29,85 +29,85 @@ Current build status
           <tbody><tr>
               <td>linux_64_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_aarch64_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_aarch64_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_ppc64le_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_ppc64le_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_r_base4.0</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.0" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=win&configuration=win_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_r_base4.1</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.1" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1516&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcpp-feedstock?branchName=main&jobName=win&configuration=win_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr>
