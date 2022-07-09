@@ -1,4 +1,4 @@
-{% set version = "1.0.8.3" %}
+{% set version = "1.0.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Rcpp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rcpp/Rcpp_{{ version }}.tar.gz
-  sha256: 9da5b84cdaf56e972b41e669d496b1ece2e91bcd435505c68b9f2bd98375f8bf
+  sha256: 807cec06dc4a96d54904360f6144466f084a7ed411ce5d2eea486a9b3c229176
   patches:
     - 0001-Add-CXX1XSTD-to-PKG_CPPFLAGS.patch
     - 0002-macOS-When-target-lt-10.9-libstdc-supports-only-some.patch
